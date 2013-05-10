@@ -1,0 +1,2 @@
+application_sonata:
+    resource: "@ApplicationSonataUserBundle/Resources/config/routing.yml"
