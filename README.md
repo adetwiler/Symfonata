@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adetwiler/Symfonata.png)](https://travis-ci.org/adetwiler/Symfonata)
+
 Symfony Standard Edition
 ========================
 
