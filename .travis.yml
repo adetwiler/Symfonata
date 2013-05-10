@@ -5,6 +5,9 @@ php:
   - 5.3
   - 5.4
 
-before_script: composer install
+before_script:
+  - cp app/config/parameters.yml.dist app/config/parameters.yml
+  - mysql -e 'create database symfonata;'
+  - composer install --prefer-source
 
 script: phpunit -c app
