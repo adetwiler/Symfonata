@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5216d120f34dd72c7aa4bc4571c87c76",
+    "hash": "5f3daba06f1a3ce500acf7139aa662dc",
     "packages": [
         {
             "name": "dflydev/markdown",
@@ -2297,17 +2297,17 @@
         },
         {
             "name": "sonata-project/block-bundle",
-            "version": "2.2.1",
+            "version": "dev-master",
             "target-dir": "Sonata/BlockBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataBlockBundle.git",
-                "reference": "2.2.1"
+                "reference": "26300bd2c19cb3a7f65f3cf14012bf3fe3a8db35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/2.2.1",
-                "reference": "2.2.1",
+                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/26300bd2c19cb3a7f65f3cf14012bf3fe3a8db35",
+                "reference": "26300bd2c19cb3a7f65f3cf14012bf3fe3a8db35",
                 "shasum": ""
             },
             "require": {
@@ -2335,7 +2335,7 @@
                     "Sonata\\BlockBundle": ""
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2356,7 +2356,7 @@
                 "block",
                 "sonata"
             ],
-            "time": "2013-05-07 12:03:58"
+            "time": "2013-05-07 16:24:48"
         },
         {
             "name": "sonata-project/doctrine-extensions",
@@ -3235,7 +3235,8 @@
         "sonata-project/admin-bundle": 20,
         "sonata-project/doctrine-orm-admin-bundle": 20,
         "sonata-project/easy-extends-bundle": 20,
-        "sonata-project/user-bundle": 20
+        "sonata-project/user-bundle": 20,
+        "sonata-project/block-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"
